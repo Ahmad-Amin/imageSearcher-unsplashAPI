@@ -1,0 +1,48 @@
+.myDiv{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 7%;
+    box-shadow: 1px 1px 5px grey;
+    padding: 20px 5px;
+}
+.myDiv input{
+    width: 50%;
+}
+
+.inputTextField{
+    height: 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.searchButton{
+    background: none;
+    border: none;
+    font-size: 14px;
+    /* border: 2px solid darkblue; */
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: all 0.4s ease;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.searchButton:hover{
+    background-color: lightblue;
+    color: white;
+}
+
+.gallery{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around; 
+}
+
+.item{
+    width: 30%;
+    margin: 20px 0;
+}
